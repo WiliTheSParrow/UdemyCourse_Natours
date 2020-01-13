@@ -16,5 +16,6 @@
     "css.validate": false,
     "scss.validate": false,
     "less.validate": false,
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "liveServer.settings.port": 5501
   }
