@@ -1,0 +1,23 @@
+.row {
+    max-width: $grid-width;
+    //max-width will adapt
+    background-color: #eee;
+    margin: 0 auto;
+    //trick to center block level elements inside other block level elements: margin top and bottom: 0 and on the left and right: auto
+
+
+    &:not(:last-child) {
+        //we select everything EXCEPT the last child
+        margin-bottom: $gutter-vertical;
+    }
+
+    .col-1-of-2 {
+        width: calc((100% - #{$gutter-horizontal}) /2);
+        background-color: orangered;
+        float: left;
+
+        &:not(:last-child) {
+            margin-right: $gutter-horizontal;
+        }
+    }
+}
