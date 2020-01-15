@@ -1,7 +1,6 @@
 .row {
     max-width: $grid-width;
     //max-width will adapt
-    background-color: #eee;
     margin: 0 auto;
     //trick to center block level elements inside other block level elements: margin top and bottom: 0 and on the left and right: auto
 
@@ -14,7 +13,6 @@
     @include clearfix;
 
     [class^="col-"] {
-        background-color: orangered;
         float: left;
 
         &:not(:last-child) {
