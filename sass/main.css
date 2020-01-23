@@ -608,8 +608,8 @@ body {
 .story:hover .story__img {
   -webkit-transform: translateX(-4rem) scale(1);
           transform: translateX(-4rem) scale(1);
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-filter: blur(3px) brightness(80%);
+          filter: blur(3px) brightness(80%);
 }
 
 .row {
