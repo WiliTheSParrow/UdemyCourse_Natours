@@ -214,6 +214,15 @@ body {
   height: 100%;
   width: 100%;
   z-index: -1;
+  opacity: .15;
+  overflow: hidden;
+}
+
+.bg-video__content {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .btn:link, .btn:visited {
@@ -555,7 +564,7 @@ body {
   margin: 0 auto;
   -webkit-box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
           box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.1);
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
   border-radius: 3px;
   padding: 6rem;
   padding-left: 9rem;
@@ -729,6 +738,5 @@ body {
 .section-stories {
   position: relative;
   padding: 15rem 0;
-  background-color: #f7f7f7;
 }
 /*# sourceMappingURL=main.css.map */
