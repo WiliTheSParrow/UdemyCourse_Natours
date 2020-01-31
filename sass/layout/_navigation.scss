@@ -12,7 +12,8 @@
         right: 6rem;
         border-radius: 50%;
         z-index: 2000;
-        box-shadow: 0 1rem 3rem rgba($color-black, .1)
+        box-shadow: 0 1rem 3rem rgba($color-black, .1);
+        text-align: center;
     }
 
     &__background {
@@ -99,6 +100,9 @@
     //ICON
 
     &__icon {
+        //Parent element
+        position: relative;
+        margin-top: 3.5rem;
 
         &,
         &::before,
@@ -107,11 +111,22 @@
             height: 2px;
             background-color: $color-grey-dark-3;
             display: inline-block;
+
         }
 
         &::before,
         &::after {
             content: "";
+            position: absolute;
+            left: 0;
+        }
+
+        &::before {
+            top: -.8rem;
+        }
+
+        &::after {
+            top: .8rem;
         }
     }
 }
