@@ -885,6 +885,12 @@ body {
   display: table-cell;
 }
 
+@media (max-width: 75em) {
+  .popup__left {
+    display: none;
+  }
+}
+
 .popup__right {
   width: 66.6666667%;
   display: table-cell;
@@ -912,6 +918,14 @@ body {
   -ms-hyphens: auto;
   -webkit-hyphens: auto;
   hyphens: auto;
+}
+
+@media (max-width: 37.5em) {
+  .popup__text {
+    -webkit-column-count: 1;
+            column-count: 1;
+    text-align: justify;
+  }
 }
 
 .popup:target {

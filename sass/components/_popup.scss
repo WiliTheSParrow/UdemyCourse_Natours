@@ -27,6 +27,9 @@
     &__left {
         width: 33.333333%;
         display: table-cell;
+        @include respond(tab-land) {
+            display: none;
+        }
     }
 
     &__right {
@@ -40,6 +43,7 @@
         display: block;
         width: 100%;
 
+      
     }
 
     &__text {
@@ -58,6 +62,11 @@
         -ms-hyphens: auto;
         -webkit-hyphens: auto;
         hyphens: auto;
+
+        @include respond(phone) {
+            column-count: 1;
+            text-align: justify;
+        }
     }
 
     //Open states
