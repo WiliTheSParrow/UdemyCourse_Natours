@@ -10,6 +10,13 @@
     visibility: hidden;
     transition: all .3s;
 
+
+    @supports(-webkit-backdrop-filter: blur(10px)) or backdrop-filter: blur(10px)) {
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        background-color: rgba($color-black, .3);
+    }
+
     &__content {
         @include absCenter;
 
@@ -27,6 +34,7 @@
     &__left {
         width: 33.333333%;
         display: table-cell;
+
         @include respond(tab-land) {
             display: none;
         }
@@ -43,7 +51,7 @@
         display: block;
         width: 100%;
 
-      
+
     }
 
     &__text {
