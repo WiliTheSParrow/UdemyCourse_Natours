@@ -1,4 +1,5 @@
-<img src="/img/logo-green-small-2x.png" height="100%" align="left">
+<img src="/img/logo-green-small-2x.png" alt="Natours logo">
+<!-- -->
 
 # Natours
 
