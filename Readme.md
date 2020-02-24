@@ -13,6 +13,7 @@
 
 ## General info
 🌳 Natours: a single-page webpage for a fictional travel agency to practice advanced SASS features and media queries. Udemy course: Advanced CSS and Sass: Flexbox, Grid, Animations and More!
+This site was built by <a href="https://www.linkedin.com/in/wjulia91/">Julia Wilhelm</a> for Jonas Schmedtmann's online course <a href="https://www.udemy.com/course/advanced-css-and-sass/?couponCode=LAUNCHSITE4">ADVANCED CSS AND SASS</a>. Copyright © by Jonas Schmedtmann. You are allowed to use this webpage for both personal and commercial use, but NOT to claim it as your own design. A credit to the original author, Jonas Schmedtmann, is of course highly appreciated!
 
 ## Technologies
 * HTML
