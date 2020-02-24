@@ -1,4 +1,4 @@
-<img src="/img/logo-green-small-2x.png" height="100%" align="left">
+<img src="/img/logo-green-small-2x.png" height="100%" align="left">⋅⋅
 
 > 🌳 Natours: a single-page webpage for a fictional travel agency to practice advanced SASS features and media queries. Udemy course: Advanced CSS and Sass: Flexbox, Grid, Animations and More!
 
